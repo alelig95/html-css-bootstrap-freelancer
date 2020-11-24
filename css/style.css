@@ -3,6 +3,11 @@
   color: #fff;
 }
 
+.padding{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .bl-navbar .navbar-brand, .bl-navbar .navbar-nav>li>a {
   color: #fff;
 }
@@ -85,6 +90,7 @@ h4{
   background-color: #1abc9c;
   color: #fff;
   margin-top: 30px;
+  padding-bottom: 20px;
 }
 
 .about-content{
@@ -101,13 +107,11 @@ h4{
 }
 
 .about-content{
-  text-align: center;
   padding-bottom: 15px;
+  text-align: center;
 }
 
-.about-content p{
-  padding-left: 50px;
-  padding-right: 50px;
+.about-p{
   text-align: left;
   margin-top: 18px;
 }
@@ -118,6 +122,7 @@ h4{
 
 .form-section{
   text-align: center;
+  margin-top: 30px;
 }
 
 .bl-form ::placeholder, .bl-form input, .bl-form textarea{
@@ -160,10 +165,14 @@ h4{
   text-align: center;
 }
 
+.footer-logo{
+  text-align: center;
+}
+
 .footer-logo > i{
   line-height: 40px;
   font-size: 18px;
-  width: 40px;
+  width: 35px;
   height: 40px;
   text-align: center;
   border: 1px solid;
