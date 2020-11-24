@@ -11,10 +11,26 @@
   <body>
 
     <div class="container-fluid">
-      <div class="nav-bar"></div>
+      <nav class="navbar navbar-default bl-navbar">
         <div class="container">
-
-        </div>
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="text-uppercase"><a href="#">Portfolio</a></li>
+              <li class="text-uppercase"><a href="#">Contact</a></li>
+              <li class="text-uppercase"><a href="#">About</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
 
       <div class="jumbotron-background">
         <div class="container">
@@ -25,8 +41,9 @@
 
               <img src="img/avataaars.svg" alt="">
               <h1>START BOOTSTRAP</h1>
-              <div class="star">
-                <i class="fa fa-star" aria-hidden="true"></i>
+
+              <div class="star-separator star-white">
+                <i class="fa fa-star"></i>
               </div>
 
               <p class="jumbotron-bottom">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
@@ -40,9 +57,10 @@
 
           <h4>PORTFOLIO</h4>
 
-          <div class="blackstar">
-            <i class="fa fa-star" aria-hidden="true"></i>
+          <div class="star-separator star-dark">
+            <i class="fa fa-star"></i>
           </div>
+
           <div class="row">
             <img class="portfolio-img col-xs-12 col-sm-6 col-md-4" src="img/image1.png" alt="">
             <img class="portfolio-img col-xs-12 col-sm-6 col-md-4" src="img/image2.png" alt="">
@@ -60,8 +78,8 @@
           <div class="about-content">
             <h4>ABOUT</h4>
 
-            <div class="star">
-              <i class="fa fa-star" aria-hidden="true"></i>
+            <div class="star-separator star-white">
+              <i class="fa fa-star"></i>
             </div>
 
             <p class="col-xs-12 col-sm-6">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
@@ -82,24 +100,27 @@
 
           <h4>CONTACT ME</h4>
 
-          <div class="blackstar">
-            <i class="fa fa-star" aria-hidden="true"></i>
-            </div>
+          <div class="star-separator star-dark">
+            <i class="fa fa-star"></i>
+          </div>
+
         </div>
         <div class="row">
           <div class="form-content">
 
-            <form>
+            <form class="bl-form">
               <div class="form-group">
-                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Name">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
               </div>
               <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Phone number">
-              </div>
-              <button type="submit" class="btn btn-default">Submit</button>
+
+              <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+            </div>
+
+              <button type="submit" class="btn btn-default btn-lg">Submit</button>
             </form>
 
           </div>
